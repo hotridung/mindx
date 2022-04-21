@@ -55,9 +55,9 @@ function CheckBoder(i, j, row, col, arr) {
         return false;
     }
 }
-var ketquamau1 = document.getElementById('numGardens');
-ketquamau1.innerText = numGardens(arr1);
-var ketquamau2 = document.getElementById('numGardens-2');
-ketquamau2.innerText = numGardens(arr2);
-var ketquamau2 = document.getElementById('numGardens-3');
-ketquamau2.innerText = numGardens(arr3);
+var ketquamau1 = $('#numGardens');
+ketquamau1.val(numGardens(arr1));
+var ketquamau2 = $('#numGardens-2');
+ketquamau2.val(numGardens(arr2));
+var ketquamau2 = $('#numGardens-3');
+ketquamau2.val(numGardens(arr3));
