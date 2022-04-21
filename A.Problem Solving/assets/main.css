@@ -1,0 +1,64 @@
+.grid {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.code {
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.Mau {
+    border: none;
+    background: #00000024;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    border-radius: 1rem;
+}
+
+.mg-auto {
+    margin-left: 24.99999%;
+}
+
+.El_k {
+    border: 1px solid;
+    text-align: center;
+}
+
+.El_0 {
+    width: 2rem;
+    background-color: rgb(255, 115, 0);
+}
+
+.El_1 {
+    background-color: greenyellow;
+}
+
+.ketqua-mau1 {
+    display: none;
+}
+
+.ketqua__mau1:checked~.ketqua-mau1 {
+    display: block;
+}
+
+.ketqua-mau2 {
+    display: none;
+}
+
+.ketqua__mau2:checked~.ketqua-mau2 {
+    display: block;
+}
+
+.ketqua-mau3 {
+    display: none;
+}
+
+.ketqua__mau3:checked~.ketqua-mau3 {
+    display: block;
+}
